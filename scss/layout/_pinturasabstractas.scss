@@ -1,0 +1,16 @@
+#h-pinturasabstractas{
+    text-align: center;
+}
+
+#p-pinturasabstractas{
+    text-align: left;
+}
+
+#img-pinturasabstractas{
+    display: flex;
+    justify-content: space-evenly;
+    img{
+        width: 750px;
+        height: 400px;
+    }
+}

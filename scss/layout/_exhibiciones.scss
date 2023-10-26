@@ -1,0 +1,7 @@
+@import "../utils/mixin";
+
+header{
+    #menu{
+        @include menu
+    }
+}

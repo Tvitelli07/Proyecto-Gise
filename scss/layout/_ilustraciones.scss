@@ -1,0 +1,41 @@
+#p-ilustraciones{
+    text-align: left;
+}
+
+#h-ilustraciones{
+    text-align: center;
+    font-size: 65px;
+}
+
+.img-ilustraciones{
+    display: flex;
+    justify-content: space-evenly;
+    img{
+        width: 550px;
+        height: 400px;
+    }
+}
+
+.contenedor {
+    position: relative;
+    display: inline-block;
+}
+
+.texto {
+    position: absolute;
+    bottom: 50%;
+    left: 0;
+    border-radius: 10px;
+    color: #fafafa;
+    border-radius: 10px;
+    background-color: black;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.contenedor:hover .texto {
+    opacity: 1; 
+}

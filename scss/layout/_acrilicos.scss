@@ -1,0 +1,19 @@
+#h-acrilicos{
+    text-align: center;
+}
+
+#p-acrilicos{
+    text-align: left;
+}
+
+#img-acrilicos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    img{
+        width: 550px;
+        height: 400px;
+        padding: 20px;
+    }
+}

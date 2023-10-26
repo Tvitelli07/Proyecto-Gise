@@ -1,0 +1,156 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif; }
+
+header #menu {
+  font-size: 25px;
+  margin: 20px;
+  padding: 25px; }
+
+section .p-bio {
+  display: flex;
+  margin: 15px; }
+  section .p-bio p {
+    font-size: 35px;
+    text-align: left; }
+  section .p-bio img {
+    width: 600px; }
+
+.p-bio p:first-letter {
+  font-size: 200%; }
+
+#t-bio {
+  text-align: center;
+  font-size: 55px; }
+
+header #menu {
+  font-size: 25px;
+  margin: 20px;
+  padding: 25px; }
+
+section h1 {
+  text-align: center;
+  font-size: 55px; }
+
+section p {
+  font-size: 35px;
+  text-align: center;
+  padding: 20px; }
+
+.f-autosabandonados {
+  display: flex;
+  justify-content: space-evenly; }
+  .f-autosabandonados img {
+    width: 550px;
+    height: 400px; }
+
+.contenedor {
+  position: relative;
+  display: inline-block; }
+
+.texto {
+  position: absolute;
+  bottom: 50%;
+  left: 0;
+  border-radius: 10px;
+  color: #fafafa;
+  border-radius: 10px;
+  background-color: black;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.5s; }
+
+.contenedor:hover .texto {
+  opacity: 1; }
+
+header #menu {
+  font-size: 25px;
+  margin: 20px;
+  padding: 25px; }
+
+header #menu {
+  font-size: 25px;
+  margin: 20px;
+  padding: 25px; }
+
+#p-ilustraciones {
+  text-align: left; }
+
+#h-ilustraciones {
+  text-align: center;
+  font-size: 65px; }
+
+.img-ilustraciones {
+  display: flex;
+  justify-content: space-evenly; }
+  .img-ilustraciones img {
+    width: 550px;
+    height: 400px; }
+
+.contenedor {
+  position: relative;
+  display: inline-block; }
+
+.texto {
+  position: absolute;
+  bottom: 50%;
+  left: 0;
+  border-radius: 10px;
+  color: #fafafa;
+  border-radius: 10px;
+  background-color: black;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.5s; }
+
+.contenedor:hover .texto {
+  opacity: 1; }
+
+#h-pinturasabstractas {
+  text-align: center; }
+
+#p-pinturasabstractas {
+  text-align: left; }
+
+#img-pinturasabstractas {
+  display: flex;
+  justify-content: space-evenly; }
+  #img-pinturasabstractas img {
+    width: 750px;
+    height: 400px; }
+
+#h-acrilicos {
+  text-align: center; }
+
+#p-acrilicos {
+  text-align: left; }
+
+#img-acrilicos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
+  #img-acrilicos img {
+    width: 550px;
+    height: 400px;
+    padding: 20px; }
+
+#h-cuadro {
+  text-align: center; }
+
+#p-cuadro {
+  text-align: left; }
+
+.img-cuadro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
+  .img-cuadro img {
+    width: 750px;
+    height: 500px;
+    padding: 20px; }

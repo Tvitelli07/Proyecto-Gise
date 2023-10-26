@@ -1,0 +1,37 @@
+@import "../utils/mixin";
+
+header{
+    #menu{
+        @include menu
+    }
+}
+
+section{
+    
+    .p-bio{
+        display: flex;
+        margin: 15px;
+        p{
+            font-size: 35px;
+            text-align: left;
+        }
+        img{
+            width: 600px;
+        
+        }
+    }
+}
+
+.p-bio{
+        p:first-letter{
+    font-size: 200%;
+        }
+
+}
+
+#t-bio{
+    text-align: center;
+    font-size: 55px;
+}
+
+

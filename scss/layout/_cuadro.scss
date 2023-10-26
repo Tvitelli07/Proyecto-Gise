@@ -1,0 +1,19 @@
+#h-cuadro{
+    text-align: center;
+}
+
+#p-cuadro{
+    text-align: left;
+}
+
+.img-cuadro{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    img{
+        width: 750px;
+        height: 500px;
+        padding: 20px;
+    }
+}
