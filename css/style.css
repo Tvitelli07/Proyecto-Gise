@@ -16,14 +16,16 @@ section .p-bio {
     font-size: 35px;
     text-align: left; }
   section .p-bio img {
-    width: 600px; }
-
-.p-bio p:first-letter {
-  font-size: 200%; }
+    width: 40%;
+    height: 33%; }
 
 #t-bio {
-  text-align: center;
+  text-align: left;
+  margin-left: 2%;
   font-size: 55px; }
+
+body header h1 {
+  text-align: left; }
 
 header #menu {
   font-size: 25px;
@@ -31,20 +33,22 @@ header #menu {
   padding: 25px; }
 
 section h1 {
-  text-align: center;
-  font-size: 55px; }
+  text-align: left;
+  font-size: 55px;
+  padding-left: 2%; }
 
 section p {
   font-size: 35px;
-  text-align: center;
+  text-align: left;
   padding: 20px; }
 
 .f-autosabandonados {
   display: flex;
   justify-content: space-evenly; }
   .f-autosabandonados img {
-    width: 550px;
-    height: 400px; }
+    width: 470px;
+    height: 400px;
+    padding: 10px; }
 
 .contenedor {
   position: relative;
@@ -55,9 +59,9 @@ section p {
   bottom: 50%;
   left: 0;
   border-radius: 10px;
-  color: #fafafa;
+  color: black;
   border-radius: 10px;
-  background-color: black;
+  background-color: #fafafa;
   padding: 10px;
   width: 100%;
   text-align: center;
@@ -72,10 +76,48 @@ header #menu {
   margin: 20px;
   padding: 25px; }
 
+h2 {
+  text-align: left;
+  margin-left: 2%; }
+
+h3 {
+  text-align: left;
+  padding-left: 2%; }
+
+#p-exhibiciones {
+  text-align: left;
+  font-size: 25px;
+  text-align: left; }
+
+.exhibiciones {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap; }
+  .exhibiciones img {
+    width: 33%;
+    height: 30%;
+    padding: 20px; }
+
 header #menu {
   font-size: 25px;
   margin: 20px;
   padding: 25px; }
+
+video {
+  width: 600px;
+  height: 600px;
+  margin-left: 40%;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.imgproyecto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
+  .imgproyecto img {
+    width: 25%;
+    height: 25%;
+    margin: 20px; }
 
 #p-ilustraciones {
   text-align: left; }
@@ -122,8 +164,8 @@ header #menu {
   display: flex;
   justify-content: space-evenly; }
   #img-pinturasabstractas img {
-    width: 750px;
-    height: 400px; }
+    width: 600px;
+    height: 350px; }
 
 #h-acrilicos {
   text-align: center; }

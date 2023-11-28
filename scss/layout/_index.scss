@@ -16,22 +16,27 @@ section{
             text-align: left;
         }
         img{
-            width: 600px;
+            width: 40%;
+            height: 33%;
+            
         
         }
     }
 }
 
-.p-bio{
-        p:first-letter{
-    font-size: 200%;
-        }
 
-}
 
 #t-bio{
-    text-align: center;
+    text-align: left;
+    margin-left: 2%;
     font-size: 55px;
 }
 
+body{
+    header{
+        h1{
+            text-align: left;
+        }
+    }
+}
 

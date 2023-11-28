@@ -5,3 +5,22 @@ header{
         @include menu
     }
 }
+
+video{
+    width: 600px;
+    height: 600px;
+    margin-left: 40%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.imgproyecto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    img{
+        width: 25%;
+        height: 25%;
+        margin: 20px;
+    }
+}
